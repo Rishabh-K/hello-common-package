@@ -7,6 +7,12 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "url": "https://github.com/Rishabh-K/github-actions-package.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@Rishabh-K"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist && tsc",
