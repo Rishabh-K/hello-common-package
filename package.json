@@ -1,0 +1,29 @@
+{
+  "name": "@Rishabh-K/hello-common-package",
+  "version": "1.0.0",
+  "description": "hello-common-package",
+  "main": "dist/index.js",
+  "types": "./dist/indesx.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.2.8",
+    "@nestjs/core": "^10.2.8",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.1"
+  }
+}
