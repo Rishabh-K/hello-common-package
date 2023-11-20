@@ -1,5 +1,5 @@
 {
-  "name": "@Rishabh-K/hello-common-package",
+  "name": "@rishabh-k/hello-common-package",
   "version": "1.0.0",
   "description": "hello-common-package",
   "main": "dist/index.js",
